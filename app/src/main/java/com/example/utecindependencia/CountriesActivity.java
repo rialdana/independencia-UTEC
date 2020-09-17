@@ -1,11 +1,14 @@
 package com.example.utecindependencia;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
+
 
 import com.example.utecindependencia.adapters.CountriesAdapter;
 import com.example.utecindependencia.adapters.CountriesListener;
@@ -17,12 +20,23 @@ import java.util.ArrayList;
 
 public class CountriesActivity extends AppCompatActivity implements CountriesListener {
     private RecyclerView listCountries;
+    private Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_countries);
         listCountries = findViewById(R.id.listCountries);
         listCountries.setAdapter(new CountriesAdapter(createAllCountries(), this));
+
+        mToolbar= findViewById(R.id.toolbar_countries);
+
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     private ArrayList<Country> createAllCountries() {
@@ -31,7 +45,7 @@ public class CountriesActivity extends AppCompatActivity implements CountriesLis
         // adding a new country to the list
         countries.add(new Country(
                 "El Salvador",
-                "https://d-maps.com/m/america/salvador/salvador21.gif",
+                "https://lh3.googleusercontent.com/-G6KpHf6_6LI/U06e5BwE75I/AAAAAAAAERc/AYsBwg3Xv-Q/s600/mapa-de-el-salvador-departamentos.png",
                 "15 de septiembre de 1821",
                 new Currency(
                         "Dolar Estadounidense",
