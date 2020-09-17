@@ -10,7 +10,6 @@
         android:id="@+id/listCountries"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="552dp"
         android:clipToPadding="false"
         android:overScrollMode="never"
         android:padding="10dp"
