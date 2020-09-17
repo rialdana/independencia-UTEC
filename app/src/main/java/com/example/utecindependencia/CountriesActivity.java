@@ -80,7 +80,7 @@ public class CountriesActivity extends AppCompatActivity implements CountriesLis
                         "https://cloud10.todocoleccion.online/billetes-extranjeros/tc/2017/10/26/15/101539144_1509024994.jpg"),
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coat_of_arms_of_Belize.svg/500px-Coat_of_arms_of_Belize.svg.png",
                 new NationalSymbol("Tucán de Quilla o Picoiris (Ramphastos Solfurantus)", "http://4.bp.blogspot.com/_JjjPYIIKotc/TN8aSGY2CVI/AAAAAAAAABw/v1vLKO3vV6Q/s1600/picoier.jpg"),
-                new NationalSymbol("Caoba de las Indicias Occidentales (Swietenia mahagoni)", "https://lh5.googleusercontent.com/G-pGmZ6dNY2AbVHMOdPFnq22IIe_Vdy_hfIt1B8GcMYl-aRlUc64pnIlHQuz-dxIDTngdQUWBC-oem6ZI7F0nRvMfK2mIHb5kFI_lnaUFvQUjonm4g=w1280"))
+                new NationalSymbol("Caoba de las Indicias Occidentales (Swietenia mahagoni)", "https://paisajismodigital.com/blog/wp-content/uploads/2017/11/Swietenia-Macrophylla.jpg"))
         );
         countries.add(new Country(
                 "Honduras",
@@ -91,9 +91,9 @@ public class CountriesActivity extends AppCompatActivity implements CountriesLis
                         "https://2.bp.blogspot.com/-J-vlu9ZzHf8/WcgcwxQ2USI/AAAAAAAADQM/E8pfBaJTeFMNga64WVDezbkCr2VmBYMNwCLcBGAs/s1600/869_001-e1472656518774.jpg",
                         "https://1.bp.blogspot.com/-rmXs8iUDmgc/Wcgcw--dOjI/AAAAAAAADQQ/KV8AbRhFzOEO8PWhESE3Xwlm4bRjts0YACLcBGAs/s1600/un-lempira.jpg",
                         "https://2.bp.blogspot.com/-5S00Wt_voBM/Wcgcwvvsh7I/AAAAAAAADQI/lMmhAD0YDNgiHPiPoqgp3nobFeqpy9-1wCLcBGAs/s1600/HNL_coins.jpg"),
-                "",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Coat_of_arms_of_Honduras.svg/507px-Coat_of_arms_of_Honduras.svg.png",
                 new NationalSymbol("Lapa Roja (Ara macao)", "http://4.bp.blogspot.com/_JjjPYIIKotc/TN8fKSOYEoI/AAAAAAAAAB4/OX6VCo7kzsI/s1600/LAPA.jpg"),
-                new NationalSymbol("Pino (Pinus oocarpa, o pino ocote)", "https://lh6.googleusercontent.com/r5E1tXEnVkTccX6F3LoS5W4SLrBAetrYm9ZwHzZU9GfcWoLdo_C4oDB_6rEaaLcUXAJtOIkTE3BAtCIZ_jiSIz_lEtK_Fg2au1lR1irr8Q56jSZJI7g=w1280"))
+                new NationalSymbol("Pino (Pinus oocarpa, o pino ocote)", "https://paisajismodigital.com/blog/wp-content/uploads/2017/11/Pinus-oocarpa-768x1024.jpg"))
         );
         countries.add(new Country(
                 "Nicaragua",
@@ -119,7 +119,7 @@ public class CountriesActivity extends AppCompatActivity implements CountriesLis
                         "http://worldbanknotegallery.com/wcg/img_hr/img17/46-228b.jpg"),
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_Costa_Rica.svg/500px-Coat_of_arms_of_Costa_Rica.svg.png",
                 new NationalSymbol("Yigüirro o Cenzontle de Agua (Turdus grayi)", "http://4.bp.blogspot.com/_JjjPYIIKotc/TOAZjFk5ICI/AAAAAAAAACI/xhaLeAC3A2M/s1600/Turdus_grayi%252C_Clay-colored_Robin%252CI_LHT2386.jpg"),
-                new NationalSymbol("Guanacaste", "https://lh4.googleusercontent.com/JkqTvl9n2KcoBVfMGNojIwpVJlsnE0jE5QLADHn95zMUm0ECUNTTH8kNmDJ1nUrSSptUVi5kjrtHMxUSFFKNsJWPyjmuOCsOPkbZk2cIxBzxr7r7hw=w1280"))
+                new NationalSymbol("Guanacaste", "https://paisajismodigital.com/blog/wp-content/uploads/2017/11/Enterolobium-cyclocarpum.jpg"))
         );
         countries.add(new Country(
                 "Panama",
@@ -132,7 +132,7 @@ public class CountriesActivity extends AppCompatActivity implements CountriesLis
                         "http://2.bp.blogspot.com/_wX9qlt5MXxU/TU2A4u6cdqI/AAAAAAAAB_s/49UP514viMM/s1600/imgpana.jpg"),
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Panama.svg/500px-Coat_of_arms_of_Panama.svg.png",
                 new NationalSymbol("Águila Arpía", "http://2.bp.blogspot.com/_JjjPYIIKotc/TN8UZW4CQVI/AAAAAAAAABk/KgSYC2OIK-g/s1600/aguilaarpia.jpg"),
-                new NationalSymbol("Panamá, Camoruco o Anacahuita (Sterculia apetala)", "https://lh5.googleusercontent.com/QqAXbCvvRD7pqhyxK40eNTgL_ZeBxet0BN5kB-4RtoLoDarTsSze14VWTdSj33O86AoyYCOXGqeZkooEdJg_4M9imvXmXPohV2VjX41odPvPM5UgC4o=w1280"))
+                new NationalSymbol("Panamá, Camoruco o Anacahuita (Sterculia apetala)", "https://paisajismodigital.com/blog/wp-content/uploads/2017/11/Sterculia-apetala-1024x678.jpg"))
         );
 
 
