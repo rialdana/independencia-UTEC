@@ -99,7 +99,7 @@ public class CountryDetailActivity extends AppCompatActivity {
                 women=poblacion*35/100;
                 men=poblacion*25/100;
                 kid=poblacion*40/100;
-                ninos.setText("Niños: "+String.valueOf(kid));
+                ninos.setText("Niños:  "+String.valueOf(kid));
                 hombres.setText("Hombres: " +String.valueOf(men));
                 mujeres.setText("Mujeres: "+String.valueOf(women));
             }
