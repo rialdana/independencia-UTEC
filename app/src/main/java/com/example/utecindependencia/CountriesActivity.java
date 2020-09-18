@@ -127,7 +127,7 @@ public class CountriesActivity extends AppCompatActivity implements CountriesLis
                 "28 de noviembre de 1821",
                 new Currency(
                         "Balboa y Dolar Estadounidense",
-                        "https://independent.typepad.com/.a/6a00d8341c595453ef014e8b107abe970d-popup",
+                        "https://www.ecured.cu/images/6/60/Billete-1-balboa.jpg",
                         "https://2.bp.blogspot.com/-wMDJNAh0mD0/WcgcWEEunoI/AAAAAAAADQA/b7tmp4je-IwAQKy2V3rMj2RPAUP91-UaQCLcBGAs/s1600/dolar.jpg",
                         "http://2.bp.blogspot.com/_wX9qlt5MXxU/TU2A4u6cdqI/AAAAAAAAB_s/49UP514viMM/s1600/imgpana.jpg"),
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Panama.svg/500px-Coat_of_arms_of_Panama.svg.png",
