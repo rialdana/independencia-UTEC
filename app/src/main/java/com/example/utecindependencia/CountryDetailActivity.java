@@ -3,6 +3,7 @@ package com.example.utecindependencia;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -69,6 +70,19 @@ public class CountryDetailActivity extends AppCompatActivity {
             }
         });
 
-
+        Moneda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               // Toast.makeText(Moneda.getContext() ,country.getCurrency().getCurrencyName(), Toast.LENGTH_SHORT).show();
+                selectCurrency(country);
+            }
+        });
     }
+
+    public void selectCurrency(Country country) {
+        Intent intent = new Intent(this, Currency_detail.class);
+        intent.putExtra("intentCurrency", country);
+        startActivity(intent);
+    }
+
 }
